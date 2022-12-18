@@ -41,7 +41,7 @@ export default class GeoReview {
     <div>
       <b>${item.name}</b> [${item.place}]
     </div>
-    <div>${item.text}</div>
+    <div style="color:gray">${item.text}</div>
     `;
       reviewList.appendChild(div);
     }
